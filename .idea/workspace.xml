@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d52a9e99-dc90-4aea-b0b2-1155b8c37439" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/CustomListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/GetListUsers/GetListUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/GetListUsers/GetListUsersApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/GetSingleUser/GetSingleUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/GetSingleUser/GetSingleUserApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/PostCreateUser/PostCreateUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/PostCreateUser/PostCreateUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/PostCreateUser/PostCreateUserTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/PostLogin/PostLoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/PostLogin/PostLoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/PostLogin/PostLoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/Specification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withoutPojo/GetListUsersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withoutPojo/GetSingleUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withoutPojo/PostRegisterUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withoutPojo/UsersData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/null_/herokuapp/SelectCollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/null_/testnewtest/mainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/resources/response-schema/response-schema-GetListUsersApiTest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/resources/response-schema/response-schema-GetSingleUserApiTest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/resources/response-schema/response-schema-PostCreateUserTest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure-filter/request.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure-filter/response.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-tests-module/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-tests-module/src/test/java/AcmeStoreUI/pages/AcmeHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-tests-module/src/test/java/AcmeStoreUI/tests/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-tests-module/src/test/java/AcmeStoreUI/tests/HomePageTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2VZv4mVGBfvABXMn7VC2jLbhQVA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-1.8",
+    "last_opened_file_path": "C:/Users/Vitalii/IdeaProjects/AT-Examples-Repository/ui-tests-module/src/test/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.35632184"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\api-tests-module\src\test\resources" />
+      <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\ui-tests-module\src\test\java" />
+      <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\api-tests-module\src\test\java" />
+      <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\src\test\resources" />
+      <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\api-tests-module\src\test\java\RestAssuredApi\needupdate" />
+      <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\api-tests-module\src\test\java\RestAssuredApi" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PostLoginTests.createNewUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="api-tests-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAssuredApi.Reqresapp.withPojo.PostLogin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAssuredApi.Reqresapp.withPojo.PostLogin" />
+      <option name="MAIN_CLASS_NAME" value="RestAssuredApi.Reqresapp.withPojo.PostLogin.PostLoginTests" />
+      <option name="METHOD_NAME" value="createNewUserTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.PostLoginTests.createNewUserTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d52a9e99-dc90-4aea-b0b2-1155b8c37439" name="Changes" comment="" />
+      <created>1695056229404</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695056229404</updated>
+      <workItem from="1695056230989" duration="1035000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
