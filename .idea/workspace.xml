@@ -4,40 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d52a9e99-dc90-4aea-b0b2-1155b8c37439" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/CustomListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/GetListUsers/GetListUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/GetListUsers/GetListUsersApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/GetSingleUser/GetSingleUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/GetSingleUser/GetSingleUserApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/PostCreateUser/PostCreateUserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/PostCreateUser/PostCreateUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/PostCreateUser/PostCreateUserTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/PostLogin/PostLoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/PostLogin/PostLoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/PostLogin/PostLoginTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/Specification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withoutPojo/GetListUsersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withoutPojo/GetSingleUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withoutPojo/PostRegisterUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withoutPojo/UsersData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/null_/herokuapp/SelectCollectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/null_/testnewtest/mainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/resources/response-schema/response-schema-GetListUsersApiTest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/resources/response-schema/response-schema-GetSingleUserApiTest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/resources/response-schema/response-schema-PostCreateUserTest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/allure-filter/request.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/allure-filter/response.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-tests-module/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-tests-module/src/test/java/AcmeStoreUI/pages/AcmeHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-tests-module/src/test/java/AcmeStoreUI/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-tests-module/src/test/java/AcmeStoreUI/tests/HomePageTests.java" afterDir="false" />
+    <list default="true" id="d52a9e99-dc90-4aea-b0b2-1155b8c37439" name="Changes" comment="update module">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +31,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-1.8",
-    "last_opened_file_path": "C:/Users/Vitalii/IdeaProjects/AT-Examples-Repository/ui-tests-module/src/test/java",
+    "last_opened_file_path": "C:/Users/Vitalii/IdeaProjects/AT-Examples-Repository/ui-tests-module/src/test/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.35632184"
@@ -81,7 +50,25 @@
       <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\api-tests-module\src\test\java\RestAssuredApi" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.HomePageTests.RubberDuckBottomTest">
+    <configuration name="HomePageTests.RubberDuckBottomTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ui-tests-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AcmeStoreUI.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AcmeStoreUI.tests" />
+      <option name="MAIN_CLASS_NAME" value="AcmeStoreUI.tests.HomePageTests" />
+      <option name="METHOD_NAME" value="RubberDuckBottomTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PostLoginTests.createNewUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="api-tests-module" />
       <extension name="coverage">
@@ -102,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomePageTests.RubberDuckBottomTest" />
         <item itemvalue="TestNG.PostLoginTests.createNewUserTest" />
       </list>
     </recent_temporary>
@@ -114,8 +102,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695056229404</updated>
-      <workItem from="1695056230989" duration="1035000" />
+      <workItem from="1695056230989" duration="2086000" />
     </task>
+    <task id="LOCAL-00001" summary="update module">
+      <created>1695057548754</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695057548754</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,5 +127,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update module" />
+    <option name="LAST_COMMIT_MESSAGE" value="update module" />
   </component>
 </project>
