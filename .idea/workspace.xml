@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d52a9e99-dc90-4aea-b0b2-1155b8c37439" name="Changes" comment="update module 1">
-      <change afterPath="$PROJECT_DIR$/api-tests-module/src/main/java/config/ApiConfigLoader.java" afterDir="false" />
+    <list default="true" id="d52a9e99-dc90-4aea-b0b2-1155b8c37439" name="Changes" comment="update module 1 api">
       <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/test1/test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-tests-module/src/test/java/DemoqaApp/pages/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-tests-module/src/test/java/DemoqaApp/pages/components/CalendarComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-tests-module/src/test/java/DemoqaApp/tests/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-tests-module/src/test/java/DemoqaApp/tests/PracticeFormTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-tests-module/src/test/java/DemoqaApp/tests/RandomUtilsForTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-tests-module/src/test/java/DemoqaApp/tests/TestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/GetListUsers/GetListUsersApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/GetListUsers/GetListUsersApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/GetSingleUser/GetSingleUserApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/GetSingleUser/GetSingleUserApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/PostCreateUser/PostCreateUserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/PostCreateUser/PostCreateUserTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/PostLogin/PostLoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/PostLogin/PostLoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/Specification.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/Specification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/null_/testnewtest/mainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/null_/testnewtest/mainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-tests-module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui-tests-module/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-tests-module/src/test/java/AcmeStoreUI/pages/AcmeHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui-tests-module/src/test/java/AcmeStoreApp/pages/AcmeHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-tests-module/src/test/java/AcmeStoreUI/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui-tests-module/src/test/java/AcmeStoreApp/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-tests-module/src/test/java/AcmeStoreUI/tests/HomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui-tests-module/src/test/java/AcmeStoreApp/tests/HomePageTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-1.8",
-    "last_opened_file_path": "C:/Users/Vitalii/IdeaProjects/AT-Examples-Repository/ui-tests-module/src/test/resources",
+    "last_opened_file_path": "C:/Users/Vitalii/IdeaProjects/AT-Examples-Repository/ui-tests-module/src/test/java/DemoqaApp/tests",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -54,20 +58,25 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\ui-tests-module\src\test\java\DemoqaApp\tests" />
+      <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\ui-tests-module\src\test\java" />
       <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\ui-tests-module\src\test\resources" />
       <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\api-tests-module\src\test\resources" />
-      <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\ui-tests-module\src\test\java" />
       <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\api-tests-module\src\test\java" />
-      <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\src\test\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\ui-tests-module\src\test\java\DemoqaApp" />
       <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\api-tests-module\src\test\resources" />
       <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\api-tests-module\src\main\resources" />
       <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\api-tests-module\src\test\java\RestAssuredApi\needupdate" />
       <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\api-tests-module\src\test\java\RestAssuredApi" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DemoqaApp.tests" />
+      <recent name="utils" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.GetListUsersApiTest.getAndCheckUsersListTest">
+  <component name="RunManager" selected="TestNG.PracticeFormTests.fillPracticeForm">
     <configuration name="GetListUsersApiTest.getAndCheckUsersListTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="api-tests-module" />
       <extension name="coverage">
@@ -79,24 +88,6 @@
       <option name="PACKAGE_NAME" value="RestAssuredApi.Reqresapp.withPojo.GetListUsers" />
       <option name="MAIN_CLASS_NAME" value="RestAssuredApi.Reqresapp.withPojo.GetListUsers.GetListUsersApiTest" />
       <option name="METHOD_NAME" value="getAndCheckUsersListTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostCreateUserTests.createNewUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="api-tests-module" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestAssuredApi.Reqresapp.withPojo.PostCreateUser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="RestAssuredApi.Reqresapp.withPojo.PostCreateUser" />
-      <option name="MAIN_CLASS_NAME" value="RestAssuredApi.Reqresapp.withPojo.PostCreateUser.PostCreateUserTests" />
-      <option name="METHOD_NAME" value="createNewUserTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -157,13 +148,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PracticeFormTests.fillPracticeForm" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ui-tests-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DemoqaApp.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DemoqaApp.tests" />
+      <option name="MAIN_CLASS_NAME" value="DemoqaApp.tests.PracticeFormTests" />
+      <option name="METHOD_NAME" value="fillPracticeForm" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PracticeFormTests.fillPracticeForm" />
         <item itemvalue="TestNG.GetListUsersApiTest.getAndCheckUsersListTest" />
         <item itemvalue="TestNG.PostLoginTests" />
         <item itemvalue="TestNG.PostLoginTests.createNewUserTest" />
         <item itemvalue="TestNG.PostLoginTests.negativeLoginTest" />
-        <item itemvalue="TestNG.PostCreateUserTests.createNewUserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +186,7 @@
       <updated>1695056229404</updated>
       <workItem from="1695056230989" duration="3617000" />
       <workItem from="1695102827569" duration="4675000" />
-      <workItem from="1695192194939" duration="15913000" />
+      <workItem from="1695192194939" duration="19322000" />
     </task>
     <task id="LOCAL-00001" summary="update module">
       <created>1695057548754</created>
@@ -193,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695058337806</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update module 1 api">
+      <created>1695238783762</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695238783762</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +229,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update module" />
     <MESSAGE value="update module 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="update module 1" />
+    <MESSAGE value="update module 1 api" />
+    <option name="LAST_COMMIT_MESSAGE" value="update module 1 api" />
   </component>
 </project>
