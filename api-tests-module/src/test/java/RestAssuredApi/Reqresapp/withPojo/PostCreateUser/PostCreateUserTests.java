@@ -1,6 +1,7 @@
 package RestAssuredApi.Reqresapp.withPojo.PostCreateUser;
 
 import RestAssuredApi.Reqresapp.withPojo.Specification;
+import config.ApiConfigLoader;
 import jdk.jfr.Description;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -10,21 +11,18 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 
 public class PostCreateUserTests {
 
-    public final String URL_MAIN = "https://reqres.in/";
-    public final String CREATE_USER_API = "/api/users";
-
     @Test
     @Description("Тест проверяет создание нового пользователя")
     public void createNewUserTest() {
         PostCreateUserRequest request = new PostCreateUserRequest();
         request.setName("Piter");
         request.setJob("photographer");
-        Specification.InstallSpecification(Specification.requestSpec(URL_MAIN), Specification.responseSpecOK201());
+        Specification.InstallSpecification(Specification.requestSpec(ApiConfigLoader.getProperty("BASE_URL")), Specification.responseSpecOK201());
 
         PostCreateUserResponse response = given()
                 .body(request)
                 .when()
-                .post(CREATE_USER_API)
+                .post(ApiConfigLoader.getProperty("POST_CREATE_USER_API"))
                 .then().log().all()
                 .body(matchesJsonSchemaInClasspath("response-schema/response-schema-PostCreateUserTest.json"))
                 .extract().as(PostCreateUserResponse.class);

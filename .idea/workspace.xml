@@ -4,14 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d52a9e99-dc90-4aea-b0b2-1155b8c37439" name="Changes" comment="update module">
+    <list default="true" id="d52a9e99-dc90-4aea-b0b2-1155b8c37439" name="Changes" comment="update module 1">
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/main/java/config/ApiConfigLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/test1/test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/GetListUsers/GetListUsersApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/GetListUsers/GetListUsersApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/GetSingleUser/GetSingleUserApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/GetSingleUser/GetSingleUserApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/PostCreateUser/PostCreateUserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/PostCreateUser/PostCreateUserTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/PostLogin/PostLoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/PostLogin/PostLoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/Specification.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/Reqresapp/withPojo/Specification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/null_/testnewtest/mainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-tests-module/src/test/java/RestAssuredApi/null_/testnewtest/mainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +46,7 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-1.8",
     "last_opened_file_path": "C:/Users/Vitalii/IdeaProjects/AT-Examples-Repository/ui-tests-module/src/test/resources",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.35632184"
@@ -39,30 +54,67 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\ui-tests-module\src\test\resources" />
       <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\api-tests-module\src\test\resources" />
       <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\ui-tests-module\src\test\java" />
       <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\api-tests-module\src\test\java" />
       <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\src\test\resources" />
-      <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\api-tests-module\src\test\resources" />
+      <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\api-tests-module\src\main\resources" />
       <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\api-tests-module\src\test\java\RestAssuredApi\needupdate" />
       <recent name="C:\Users\Vitalii\IdeaProjects\AT-Examples-Repository\api-tests-module\src\test\java\RestAssuredApi" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HomePageTests.RubberDuckBottomTest">
-    <configuration name="HomePageTests.RubberDuckBottomTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ui-tests-module" />
+  <component name="RunManager" selected="TestNG.GetListUsersApiTest.getAndCheckUsersListTest">
+    <configuration name="GetListUsersApiTest.getAndCheckUsersListTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="api-tests-module" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AcmeStoreUI.tests.*" />
+          <option name="PATTERN" value="RestAssuredApi.Reqresapp.withPojo.GetListUsers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="AcmeStoreUI.tests" />
-      <option name="MAIN_CLASS_NAME" value="AcmeStoreUI.tests.HomePageTests" />
-      <option name="METHOD_NAME" value="RubberDuckBottomTest" />
+      <option name="PACKAGE_NAME" value="RestAssuredApi.Reqresapp.withPojo.GetListUsers" />
+      <option name="MAIN_CLASS_NAME" value="RestAssuredApi.Reqresapp.withPojo.GetListUsers.GetListUsersApiTest" />
+      <option name="METHOD_NAME" value="getAndCheckUsersListTest" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostCreateUserTests.createNewUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="api-tests-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAssuredApi.Reqresapp.withPojo.PostCreateUser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAssuredApi.Reqresapp.withPojo.PostCreateUser" />
+      <option name="MAIN_CLASS_NAME" value="RestAssuredApi.Reqresapp.withPojo.PostCreateUser.PostCreateUserTests" />
+      <option name="METHOD_NAME" value="createNewUserTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostLoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="api-tests-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAssuredApi.Reqresapp.withPojo.PostLogin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAssuredApi.Reqresapp.withPojo.PostLogin" />
+      <option name="MAIN_CLASS_NAME" value="RestAssuredApi.Reqresapp.withPojo.PostLogin.PostLoginTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -87,10 +139,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PostLoginTests.negativeLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="api-tests-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAssuredApi.Reqresapp.withPojo.PostLogin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAssuredApi.Reqresapp.withPojo.PostLogin" />
+      <option name="MAIN_CLASS_NAME" value="RestAssuredApi.Reqresapp.withPojo.PostLogin.PostLoginTests" />
+      <option name="METHOD_NAME" value="negativeLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HomePageTests.RubberDuckBottomTest" />
+        <item itemvalue="TestNG.GetListUsersApiTest.getAndCheckUsersListTest" />
+        <item itemvalue="TestNG.PostLoginTests" />
         <item itemvalue="TestNG.PostLoginTests.createNewUserTest" />
+        <item itemvalue="TestNG.PostLoginTests.negativeLoginTest" />
+        <item itemvalue="TestNG.PostCreateUserTests.createNewUserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +175,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695056229404</updated>
-      <workItem from="1695056230989" duration="2086000" />
+      <workItem from="1695056230989" duration="3617000" />
+      <workItem from="1695102827569" duration="4675000" />
+      <workItem from="1695192194939" duration="15913000" />
     </task>
     <task id="LOCAL-00001" summary="update module">
       <created>1695057548754</created>
@@ -111,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695057548754</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update module 1">
+      <created>1695058337806</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695058337806</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +212,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update module" />
-    <option name="LAST_COMMIT_MESSAGE" value="update module" />
+    <MESSAGE value="update module 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="update module 1" />
   </component>
 </project>

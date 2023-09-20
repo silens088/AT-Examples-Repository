@@ -1,6 +1,7 @@
 package RestAssuredApi.Reqresapp.withPojo.GetListUsers;
 
 import RestAssuredApi.Reqresapp.withPojo.Specification;
+import config.ApiConfigLoader;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import jdk.jfr.Description;
@@ -19,15 +20,12 @@ import static org.testng.FileAssert.fail;
 
 public class GetListUsersApiTest {
 
-    public String URL_MAIN = "https://reqres.in/";
-    public String USERS_LIST_PAGE1 = "/api/users?page=2";
-
     @Test
     @Description("Тест проверяет поля Json файла, полученного в ответе")
     public void getAndCheckUsersListTest() {
-        Specification.InstallSpecification(Specification.requestSpec(URL_MAIN), Specification.responseSpecOK200());
+        Specification.InstallSpecification(Specification.requestSpec(ApiConfigLoader.getProperty("BASE_URL")), Specification.responseSpecOK200());
 
-        Integer page = 1;
+        Integer page = 2;
         Integer per_page = 6;
         Integer total = 12;
         Integer total_pages = 2;
@@ -37,7 +35,7 @@ public class GetListUsersApiTest {
 
         GetListUsers.Root rootData = given()
                 .when()
-                .get(USERS_LIST_PAGE1)
+                .get(ApiConfigLoader.getProperty("USERS_LIST_PAGE2"))
                 .then().log().all()
                 .body(matchesJsonSchemaInClasspath("response-schema/response-schema-GetListUsersApiTest.json"))
                 .extract().as(GetListUsers.Root.class);
@@ -58,7 +56,7 @@ public class GetListUsersApiTest {
         //тест на проверку элемента 2
         Response response = given()
                 .when()
-                .get(USERS_LIST_PAGE1)
+                .get(ApiConfigLoader.getProperty("USERS_LIST_PAGE2"))
                 .then()
                 .statusCode(200)
                 .extract().response();
@@ -69,16 +67,16 @@ public class GetListUsersApiTest {
 
         // Находим конкретный объект в списке по ID
         Optional<Map<String, Object>> userOptional = dataList.stream()
-                .filter(user -> user.get("id").equals(2))
+                .filter(user -> user.get("id").equals(7))
                 .findFirst();
 
         // Проверяем поля объекта
         if (userOptional.isPresent()) {
             Map<String, Object> user = userOptional.get();
-            assertThat(user.get("email"), equalTo("janet.weaver@reqres.in"));
-            assertThat(user.get("first_name"), equalTo("Janet"));
-            assertThat(user.get("last_name"), equalTo("Weaver"));
-            assertThat(user.get("avatar"), equalTo("https://reqres.in/img/faces/2-image.jpg"));
+            assertThat(user.get("email"), equalTo("michael.lawson@reqres.in"));
+            assertThat(user.get("first_name"), equalTo("Michael"));
+            assertThat(user.get("last_name"), equalTo("Lawson"));
+            assertThat(user.get("avatar"), equalTo("https://reqres.in/img/faces/7-image.jpg"));
             //fail("Всё нормально в этом тесте");
         } else {
             fail("Пользователь с ID 2 не найден!");

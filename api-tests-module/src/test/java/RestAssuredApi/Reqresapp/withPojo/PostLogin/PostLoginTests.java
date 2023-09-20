@@ -2,10 +2,14 @@ package RestAssuredApi.Reqresapp.withPojo.PostLogin;
 
 import RestAssuredApi.Reqresapp.withPojo.CustomListener;
 import RestAssuredApi.Reqresapp.withPojo.Specification;
+import config.ApiConfigLoader;
 import io.qameta.allure.*;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.qameta.allure.testng.Tag;
+import io.qameta.allure.testng.Tags;
+import io.restassured.response.Response;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -18,35 +22,78 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 @Listeners(CustomListener.class)
 public class PostLoginTests {
 
-    private final String URL_MAIN = "https://reqres.in/";
-    private final String LOGIN_API = "/api/login";
+    @DataProvider(name = "loginData")
+    public Object[][] dataProviderPositive() {
+        return new Object[][]{
+                {"eve.holt@reqres.in", "cityslicka", "QpwL5tke4Pnpja7X4"},
+                //другие комбинации email, пароля и ожидаемого токена
+        };
+    }
 
-    @Test
-    @Tag("POST")
+    @Test(dataProvider = "loginData")
     @Link("some links")
     @Epic("Login")
-    @Feature("Отправляем запрос на логин")
+    @Feature("Login user")
     @Story("Авторизация пользователя")
-    @Severity(SeverityLevel.CRITICAL)
     @Description("Тест проверяет успешный логин")
-    public void createNewUserTest() {
-        Specification.InstallSpecification(Specification.requestSpec(URL_MAIN), Specification.responseSpecOK200());
+    @Severity(SeverityLevel.CRITICAL)
+    @Tags({@Tag("POST"), @Tag("Login")})
+    public void createNewUserTest(String email, String password, String expectedToken) {
+        Specification.InstallSpecification(Specification.requestSpec(ApiConfigLoader.getProperty("BASE_URL")), Specification.responseSpecOK200());
+
         PostLoginRequest request = new PostLoginRequest();
-        request.setEmail("eve.holt@reqres.in");
-        request.setPassword("cityslicka");
-        String actualTokenData = "QpwL5tke4Pnpja7X4";
+        request.setEmail(email);
+        request.setPassword(password);
 
         step("Проверяем успешный логин", () -> {
             PostLoginResponse response = given()
                     .filter(new AllureRestAssured())                                                                        // Добавляем AllureRestAssured для интеграции с Allure
                     .body(request)
                     .when()
-                    .post(LOGIN_API)
+                    .post(ApiConfigLoader.getProperty("LOGIN_API"))
                     .then().log().all()
                     .body(matchesJsonSchemaInClasspath("response-schema/response-schema-PostCreateUserTest.json"))
                     .extract().as(PostLoginResponse.class);
 
-            Assert.assertEquals(actualTokenData, response.getToken());
+            Assert.assertEquals(expectedToken, response.getToken());
+        });
+    }
+
+    @DataProvider(name = "negativeLoginData")
+    public Object[][] dataProviderNegative() {
+        return new Object[][]{
+                //{"wrong.email@reqres.in", "cityslicka", "Login failed: Wrong email"},
+                {"-1", "wrongPassword", "user not found"},
+        };
+    }
+
+    @Test(dataProvider = "negativeLoginData")
+    @Tag("POST")
+    @Link("some links")
+    @Epic("Login")
+    @Feature("Request to login")
+    @Story("Неудачная авторизация пользователя")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("check fail login test")
+    public void negativeLoginTest(String email, String password, String expectedErrorMessage) {
+        Specification.InstallSpecification(Specification.requestSpec(ApiConfigLoader.getProperty("BASE_URL")), Specification.responseSpecOK400());  // Этот метод может измениться, если для негативных сценариев ожидается другой статус ответа.
+
+        PostLoginRequest request = new PostLoginRequest();
+        request.setEmail(email);
+        request.setPassword(password);
+
+        step("Проверяем неудачную попытку логина", () -> {
+            Response response = given()
+                    .filter(new AllureRestAssured())
+                    .body(request)
+                    .when()
+                    .post(ApiConfigLoader.getProperty("LOGIN_API"))
+                    .then().log().all()
+                    .extract().response();
+
+            String actualErrorMessage = response.jsonPath().getString("error");
+            Assert.assertEquals(actualErrorMessage, expectedErrorMessage);
         });
     }
 }
+

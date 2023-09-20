@@ -1,6 +1,7 @@
 package RestAssuredApi.Reqresapp.withPojo.GetSingleUser;
 
 import RestAssuredApi.Reqresapp.withPojo.Specification;
+import config.ApiConfigLoader;
 import jdk.jfr.Description;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -10,13 +11,10 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 
 public class GetSingleUserApiTest {
 
-    public final String URL_MAIN = "https://reqres.in/";
-    public final String USER_ONE = "/api/users/1";
-
     @Test
     @Description("Тест проверяет поля Json в ответе")
     public void getSingleUserTest() {
-        Specification.InstallSpecification(Specification.requestSpec(URL_MAIN), Specification.responseSpecOK200());
+        Specification.InstallSpecification(Specification.requestSpec(ApiConfigLoader.getProperty("BASE_URL")), Specification.responseSpecOK200());
 
         Integer idData = 1;
         String email = "george.bluth@reqres.in";
@@ -30,7 +28,7 @@ public class GetSingleUserApiTest {
 
         GetSingleUser.Root getDataSingleUser = given()
                 .when()
-                .get(USER_ONE)
+                .get(ApiConfigLoader.getProperty("GET_USER_ONE"))
                 .then().log().all()
                 .body(matchesJsonSchemaInClasspath("response-schema/response-schema-GetSingleUserApiTest.json"))
                 .extract().body().as(GetSingleUser.Root.class);
